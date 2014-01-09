@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="light_grey">#ffeeeeee</color>
+    <color name="card_shadow">#8ca8a8a8</color>
+
+    <color name="card_pressed">@android:color/holo_green_dark</color>
+    <color name="card_activated">#5F0099CC</color>
+
+    <color name="holo_green">@android:color/holo_green_dark</color>
+    <color name="holo_green_light">@android:color/holo_green_light</color>
+    <!--
+    <color name="card_pressed_header">#d6d6d6</color>
+    <color name="header_button_default">#494949</color>
+    <color name="card_gray">#e5e5e5</color>
+    -->
+
+</resources>

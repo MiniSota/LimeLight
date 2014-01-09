@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_thumbnail"
+    android:layout_margin="4dp">
+
+    <Button
+        android:id="@+id/movie_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card_selector"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:fontFamily="sans_serif"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:background="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/inner_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4">
+
+            <ImageView
+                android:id="@+id/poster"
+                android:layout_width="@dimen/card_thumbnail"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_launcher_default"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="3dp"
+                android:layout_alignParentTop="true" />
+
+            <include layout="@layout/buttons" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6">
+
+            <TextView
+                android:id="@+id/genres"
+                android:textColor="@android:color/holo_blue_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="27dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="sans_serif"
+                android:textSize="19sp"
+                android:text="Action" />
+
+            <TextView
+                android:id="@+id/release_date"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans_serif"
+                android:textSize="20sp"
+                android:layout_below="@id/genres"
+                android:text="10th November 2013" />
+
+            <TextView
+                android:id="@+id/ratingTextView"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans_serif"
+                android:text="8"
+                android:textSize="20sp"
+                android:drawableRight="@drawable/ic_star_filled"
+                android:layout_below="@id/genres"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

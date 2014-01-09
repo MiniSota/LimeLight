@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.centerstage.limelight.NotifyingScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/scroll_view">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:id="@+id/poster_large"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/in_theaters"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient"/>
+
+            <ImageButton
+                android:id="@+id/play_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_action_play"
+                android:scaleType="centerCrop" />
+
+
+            <ImageButton
+                android:id="@+id/seen_button"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="-4dp"
+                android:padding="3dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="90dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_selector"
+                android:src="@drawable/ic_add_history" />
+
+            <View android:layout_height="25dp"
+                android:layout_width="2dp"
+                android:layout_marginTop="90dp"
+                android:layout_gravity="center"
+                android:background="#90909090"/>
+
+            <ImageButton
+                android:id="@+id/wants_to_see_button"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="90dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_add_watchlist"
+                android:padding="3dp"
+                android:background="@drawable/button_selector"
+                android:adjustViewBounds="false" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ratingTextView"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans_serif"
+                android:text="8"
+                android:textSize="20sp"
+                android:drawableRight="@drawable/ic_star_filled" />
+
+            <View android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:background="#90909090"/>
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/genres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:fontFamily="sans_serif"
+                    android:textSize="16sp"
+                    android:text="Action" />
+
+                <TextView
+                    android:id="@+id/release_date"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="sans_serif"
+                    android:textSize="16sp"
+                    android:text="10th November 2013" />
+            </RelativeLayout>
+
+            <View android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:background="#90909090"/>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/movie_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.centerstage.limelight.NotifyingScrollView>

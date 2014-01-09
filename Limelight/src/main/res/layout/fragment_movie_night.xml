@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:weightSum="6"
+    android:background="@color/light_grey">
+
+    <TableRow android:layout_weight="1"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:background="@drawable/card_selector"
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Action"
+            android:src="@drawable/ic_genre_action"
+            android:scaleType="centerCrop" />
+        <ImageButton
+            android:background="@drawable/card_selector"
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Comedy"
+            android:src="@drawable/ic_genre_comedy"
+            android:scaleType="centerCrop" />
+        <ImageButton
+            android:background="@drawable/card_selector"
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Music"
+            android:src="@drawable/ic_genre_musical"
+            android:scaleType="centerCrop" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1" >
+        <ImageButton
+            android:background="@drawable/card_selector"
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Documentary"
+            android:src="@drawable/ic_genre_documentary"
+            android:scaleType="centerCrop" />
+        <ImageButton
+            android:background="@drawable/card_selector"
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Mystery"
+            android:src="@drawable/ic_genre_mystery"
+            android:scaleType="centerCrop" />
+        <ImageButton
+            android:background="@drawable/card_selector"
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Sports"
+            android:src="@drawable/ic_genre_sports"
+            android:scaleType="centerCrop" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1" >
+        <ImageButton
+            android:background="@drawable/card_selector"
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Romance"
+            android:src="@drawable/ic_genre_romance"
+            android:scaleType="centerCrop" />
+        <ImageButton
+            android:background="@drawable/card_selector"
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Fantasy"
+            android:src="@drawable/ic_genre_fantasy"
+            android:scaleType="centerCrop" />
+        <ImageButton
+            android:background="@drawable/card_selector"
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Drama"
+            android:src="@drawable/ic_genre_drama"
+            android:scaleType="centerCrop" />
+    </TableRow>
+
+
+
+    <TableRow android:layout_weight="1" >
+
+        <Button
+            android:background="@drawable/card_selector"
+            android:layout_margin="6dp"
+            android:id="@+id/Top_Movies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="3"
+            android:text="Top Movies" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Mastermind/Desktop/Custom_Solution/Limelight/TabCarouselLib/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="transparent_black">#99000000</color>
+    <color name="white">#ffffffff</color>
+    <!-- From: file:/C:/Users/Mastermind/Desktop/Custom_Solution/Limelight/TabCarouselLib/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="carousel_image_shadow_height">10.0dip</dimen>
+    <dimen name="carousel_indicator_height">5.0dip</dimen>
+    <dimen name="carousel_label_height">45.0dip</dimen>
+    <dimen name="carousel_label_padding">16.0dip</dimen>
+    <dimen name="text_size_large">18.0sp</dimen>
+    <!-- From: file:/C:/Users/Mastermind/Desktop/Custom_Solution/Limelight/TabCarouselLib/src/main/res/values/fractions.xml -->
+    <eat-comment />
+
+    <item name="tab_height_screen_percentage" type="fraction">50.0%</item>
+    <item name="tab_width_screen_percentage" type="fraction">75.0%</item>
+
+</resources>

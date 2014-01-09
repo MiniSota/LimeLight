@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="carousel_container"
+                path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res\layout\carousel_container.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="carousel_header"
+                path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res\layout\carousel_header.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="carousel_tab"
+                path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res\layout\carousel_tab.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="faux_carousel"
+                path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res\layout\faux_carousel.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res\values\colors.xml"
+                qualifiers="" >
+                <color name="white" >#ffffffff
+                </color>
+                <color name="transparent_black" >#99000000
+                </color>
+            </file>
+            <file
+                path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="carousel_indicator_height" >5.0dip
+                </dimen>
+                <dimen name="carousel_label_padding" >16.0dip
+                </dimen>
+                <dimen name="text_size_large" >18.0sp
+                </dimen>
+                <dimen name="carousel_label_height" >45.0dip
+                </dimen>
+                <dimen name="carousel_image_shadow_height" >10.0dip
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res\values\fractions.xml"
+                qualifiers="" >
+                <item
+                    name="tab_height_screen_percentage"
+                    type="fraction">
+50.0%
+                </item>
+                <item
+                    name="tab_width_screen_percentage"
+                    type="fraction">
+75.0%
+                </item>
+            </file>
+            <file
+                path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\main\res\values-sw580dp\fractions.xml"
+                qualifiers="sw580dp" >
+                <item
+                    name="tab_width_screen_percentage"
+                    type="fraction">
+66.67%
+                </item>
+                <item
+                    name="tab_height_screen_percentage"
+                    type="fraction">
+66.67%
+                </item>
+            </file>
+        </source>
+        <source path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Mastermind\Desktop\Custom_Solution\Limelight\TabCarouselLib\src\debug\res" />
+    </dataSet>
+
+</merger>
